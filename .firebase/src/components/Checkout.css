@@ -1,0 +1,28 @@
+.checkout{
+    background-color: white;
+    padding: 1em;
+}
+.checkout .container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+.checkout__left{
+    margin-right: 1em;
+}
+.checkout__left .checkout__ad{
+    width: 100%;
+    object-fit: contain;
+}
+.checkout__left h2{
+    padding: 0.35em;
+}
+.checkout__right{
+    position: relative;
+}
+@media only screen and (max-width:768px) {
+    .checkout .container{
+        display: block;
+    }
+}

@@ -1,0 +1,30 @@
+.cart__items{
+    display: flex;
+    width: 100%;
+    padding: 1em 0;
+    font-weight: 500;
+}
+.cart__items img{
+    width: 110px;
+    object-fit: contain;
+    /* border: 1px solid grey; */
+    padding-right: 1em;
+}
+.cart__items .cart__item__details{
+    line-height: 1.5em;
+    margin: 0 1em;
+}
+.cart__btn{
+    background-color:#ebab58;
+    color: #111;
+    padding: 0.3em 0.8em;
+    border: none;
+    border-radius: 0.3em;
+    margin-top: 2em;   
+}
+@media only screen and (max-width:768px) {
+    .cart__items .cart__item__details{
+        margin-right: 0;
+        font-size: 0.9em;
+    }
+}
